@@ -9757,12 +9757,14 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-html { scroll-padding-top: 90px; }
-
-@media (min-width: 769px) {
-  html { scroll-behavior: smooth; }
+section[id],
+div[id] {
+  scroll-margin-top: 140px; /* adjust if needed */
 }
 
 @media (max-width: 768px) {
-  html { scroll-padding-top: 120px; }
+  section[id],
+  div[id] {
+    scroll-margin-top: 170px;
+  }
 }
