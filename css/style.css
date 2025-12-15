@@ -9762,7 +9762,7 @@ html {
 }
 
 @media (max-width: 768px) {
-  html {
-    scroll-padding-top: 120px;
-  }
+  #sidebar {
+    position:static;
+  } 
 }
